@@ -1,0 +1,73 @@
+body {
+	background-image: url("../images/A1.jpg");
+	background-color:yellow;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	display:inline-block ;
+	background-position:center;
+  height: 200px;
+  width:200px;
+
+
+}
+
+@keyframes mymove {
+  0% {
+    transform: rotate(0deg);
+}
+100% {
+    transform: rotate(360deg);
+}
+}
+
+.a2{
+  width: 100px;
+  height: 100px;  
+  position: relative;
+  animation: mymove 5s linear infinite ;
+  margin-top:50px ;
+  margin-left:30px ;
+
+}
+@keyframes bird{
+0% {
+    margin-top: 150px;
+    margin-left: -610px;
+}
+
+100% {
+    margin-top: 0px;
+    margin-left: 1700px;
+}
+}
+.div1{
+	        margin-top: 150px;
+    margin-left: 100px;
+    width: 350px;
+    height: 300px;
+    display: inline-block;
+    position: fixed;
+    z-index: 5;
+    animation: bird 16s linear infinite;
+}
+.img2{
+width: 200px;
+  height: 200px;
+margin-left:550px ;
+margin-top:70px;
+
+}
+.img3{
+	width:100px ;
+	height: 130px;
+	margin-left:px;
+	position: absolute;
+	transition: all 4s;
+	display: inline-block;	
+}
+
+
+.img3:hover{
+	transform: rotate(360deg);
+}
